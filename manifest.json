@@ -1,0 +1,39 @@
+{
+  "manifest_version": 2,
+  "name": "NotificationReader",
+  "version": "1.0.0",
+  "description": "Relays Notification between android and chrome",
+
+  "background":{
+    "persistent": true,
+    "scripts": [
+      "scripts/qrcode.js",
+      "scripts/socketio.js",
+      "scripts/randoms.js",
+      "scripts/background.js"
+    ]
+  },
+  "browser_action":{
+    "default_icon":{
+      "16": "images/unauthenticated16.png",
+      "48": "images/unauthenticated48.png",
+      "128": "images/unauthenticated128.png"
+    },
+    "default_title": "Notification Reader",
+    "default_popup": "popup.html"
+  },
+  "icons": {
+      "16": "images/unauthenticated16.png",
+      "48": "images/unauthenticated48.png",
+      "128": "images/unauthenticated128.png"
+    },
+  "permissions": [
+    "tabs",
+    "storage",
+    "activeTab",
+    "http://*/*",
+    "https://*/*",
+    "notifications",
+    "<all_urls>"
+  ]
+}

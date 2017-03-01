@@ -1,0 +1,22 @@
+{
+  "name": "haptiq",
+  "homepage": "https://github.com/jazzyarchitects/Haptiq-Extension",
+  "authors": [
+    "Jibin Mathews <jibinmathews7@gmail.com>"
+  ],
+  "description": "Fingerprint based authentication system for social sites",
+  "main": "scripts/background.js",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "^1.6.1",
+    "angular-material": "^1.1.3"
+  }
+}

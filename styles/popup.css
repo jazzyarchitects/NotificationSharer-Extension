@@ -1,0 +1,14 @@
+body{
+  width: 300px;
+}
+
+#qrcode{
+  margin: 15px 75px;
+}
+
+
+p{
+  text-align: center;
+  font-size: 18px;
+  color: #222;
+}
